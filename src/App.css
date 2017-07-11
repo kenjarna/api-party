@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Gentium+Book+Basic:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One%7CGentium+Book+Basic:400,400i');
 
 .App {
   text-align: center;
@@ -20,3 +20,31 @@ h3 {
   padding: 20px;
   color: white;
 }
+
+.nav-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.nav-links a {
+  color: #02b1ff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav-links a.active {
+  color: #F79824;
+}
+
+.nav-links a.active:hover {
+  color: #FDCA40;
+}
+
+.nav-links a:hover {
+  color: #0184be;
+} 
